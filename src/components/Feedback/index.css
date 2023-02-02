@@ -1,0 +1,40 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-card {
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: roboto;
+  font-size: 25px;
+  width: 400px;
+  text-align: center;
+}
+.emoji-container {
+  display: flex;
+  list-style-type: none;
+}
+.button {
+  background-color: #ffffff;
+  border: none;
+  margin-right: 50px;
+}
+.emoji-style {
+  width: 60px;
+}
+.emoji-name {
+  font-family: roboto;
+  font-size: 10px;
+}
